@@ -1,0 +1,53 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #root {
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  h1{
+    margin-bottom: auto;
+  }
+  p{
+    margin-top: auto;
+  }
+  
+  form {
+    width: 40%;
+    height: 60%;
+    padding: 20px;
+    border: 1px solid #8d8b8b;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 20px 20px 20px 20px #0000001a;
+    
+  }
+  header {
+    align-content: center;
+    margin-left: 50px;
+    
+  }
+  .checkbox{
+    width: auto;
+    height: 400px;
+  }
+  .linha{
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+
+  }
+  label{
+    width: auto;
+    height: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 10px;
+  }
